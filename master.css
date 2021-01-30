@@ -1,0 +1,114 @@
+#navbar ul{
+  display: none;
+  background-color: #e84545;
+  position: static;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 30px;
+  background-color: #666;
+  padding-left: 25px;
+  min-width: 100%;
+  position: fixed;
+  opacity: 0.8;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#navbar li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #e84545; }
+#navbar ul li:hover { background-color: #666; }
+
+#mainbody{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #2b2e4a;
+}
+.Heading{
+  color:white;
+ padding-top: 40px;
+}
+#Second{
+  text-align: center;
+}
+.team-fas{
+  font-size: 100px;
+  margin-top: 20px;
+  color: #903749;
+  margin-bottom: 20px;
+}
+#Third{
+  width: 100%;
+  height: 340px;
+  text-align: center;
+  background-color: #e84545;
+}
+.radio-fas{
+  font-size: 150px;
+  margin-top: 20px;
+  color: #2b2e4a;
+  margin-bottom: 20px;
+}
+.Baha{
+  color:white;
+}
+.ITM{
+  font-family: 'Ubuntu', sans-serif;
+  color:#2b2e4a;
+}
+#Forth{
+  width: 100%;
+  height: 340px;
+  text-align: center;
+  background-color: white;
+}
+.sunkar{
+  font-size: 150px;
+  margin-top: 20px;
+  color: #e84545;
+  margin-bottom: 20px;
+}
+#Fifth{
+  width: 100%;
+  height: 340px;
+  text-align: center;
+  background-color: #53354a;
+}
+.Zhanerke{
+  font-size: 150px;
+  margin-top: 20px;
+  color: #e23e57;
+  margin-bottom: 20px;
+}
+#Last{
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  background-color: #2b2e4a;
+}
+.license{
+  color: #EAF6F6;
+font-size: 0.75rem;
+padding: 20px 0;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
